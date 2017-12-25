@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:elevation="1dp"
+    tools:ignore="NestedWeights,HardcodedText">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@color/colorAccent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/num7"
+            style="@style/CalculatorButton"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:tag="7"
+            android:text="@string/num7" />
+
+        <Button
+            android:id="@+id/num4"
+            style="@style/CalculatorButton"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:tag="4"
+            android:text="@string/num4" />
+
+        <Button
+            android:id="@+id/num1"
+            style="@style/CalculatorButton"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:tag="1"
+            android:text="@string/num1" />
+
+        <Button
+            android:id="@+id/optDot"
+            style="@style/CalculatorButton"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:tag="."
+            android:text="@string/optDot" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@color/colorAccent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/num8"
+            style="@style/CalculatorButton"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:tag="8"
+            android:text="@string/num8" />
+
+        <Button
+            android:id="@+id/num5"
+            style="@style/CalculatorButton"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:tag="5"
+            android:text="@string/num5" />
+
+        <Button
+            android:id="@+id/num2"
+            style="@style/CalculatorButton"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:tag="2"
+            android:text="@string/num2" />
+
+        <Button
+            android:id="@+id/num0"
+            style="@style/CalculatorButton"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:tag="0"
+            android:text="@string/num0" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@color/colorAccent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/num9"
+            style="@style/CalculatorButton"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:tag="9"
+            android:text="@string/num9" />
+
+        <Button
+            android:id="@+id/num6"
+            style="@style/CalculatorButton"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:tag="6"
+            android:text="@string/num6" />
+
+        <Button
+            android:id="@+id/num3"
+            style="@style/CalculatorButton"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:tag="3"
+            android:text="@string/num3" />
+
+        <Button
+            android:id="@+id/optEqual"
+            style="@style/CalculatorButton"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:tag="="
+            android:text="@string/optEqual" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@color/colorPrimary"
+        android:elevation="2dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/optDiv"
+            style="@style/CalculatorButton"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:tag="/"
+            android:text="@string/optDiv" />
+
+        <Button
+            android:id="@+id/optMul"
+            style="@style/CalculatorButton"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:tag="*"
+            android:text="@string/optMul" />
+
+        <Button
+            android:id="@+id/optSub"
+            style="@style/CalculatorButton"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:tag="-"
+            android:text="@string/optSub" />
+
+        <Button
+            android:id="@+id/optAdd"
+            style="@style/CalculatorButton"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:tag="+"
+            android:text="@string/optAdd" />
+    </LinearLayout>
+</LinearLayout>

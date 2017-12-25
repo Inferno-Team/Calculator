@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Calculator</string>
+    <string name="optDiv">\u00F7</string>
+    <string name="optMul">\u00D7</string>
+    <string name="optAdd">+</string>
+    <string name="optSub">-</string>
+    <string name="optDot">\u065C</string>
+    <string name="optEqual">=</string>
+    <string name="num0">\u0660</string>
+    <string name="num1">\u0661</string>
+    <string name="num2">\u0662</string>
+    <string name="num3">\u0663</string>
+    <string name="num4">\u0664</string>
+    <string name="num5">\u0665</string>
+    <string name="num6">\u0666</string>
+    <string name="num7">\u0667</string>
+    <string name="num8">\u0668</string>
+    <string name="num9">\u0669</string>
+</resources>
